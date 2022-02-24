@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvraj Library</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body{
+          background-image: url("libraray1.jpg");  
+        }
+        .left{
+            display:inline-block;
+            position: absolute;
+        /*border :2px solid white;*/
+            top:40px;
+        }
+        .mid{
+            display :block;
+          border:2px solid white;
+        width:55%;
+       margin:40px auto;
+       padding:10px;
+        }
+        .right{
+            position :absolute;
+    /*border:2px solid white;*/
+    display:inline-block;
+    top:40px;
+    right:100px;
+
+        }
+
+    .left image{
+        width:150px;
+    }
+    .left div{
+            text-align: center;
+            font-size: 24px;
+
+        }
+        .navbar{
+            display:inline-block;
+        }
+        .navbar li{
+            display:inline-block
+        }
+        .navbar li a{
+            color:white;
+            text-decoration:none;
+            padding:34px;
+            font-size:34px;
+        }
+        .navbar li a:hover,.navbar li a.active{
+            text-decoration: underline;
+            color:black
+        }
+        
+        
+        
+        .container{
+            border:2px solid white;
+
+            margin :150px auto;
+            padding:60px;
+            width:33%;
+            border-radius:2px;
+        }
+        .container h1{
+            text-align: center;
+           font-family: cursive;
+           font-size:40px;
+        }
+    .form-group input{
+        font-family: cursive;
+        text-align: center;
+        display:  block;
+        width:80%;
+         padding:2px;
+        border:2px solid white;
+         margin:50px auto;
+        font-size:30px;
+        border-radius:8px;
+
+
+    }
+    .container button{
+            display:block;
+         margin:20px auto;
+         width:40%;
+         height: 40px;
+          background-color: black;
+          color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+    <div class="left">
+        <img src="library2.png" alt="">
+        <h1>Yuvraj Library </h1>
+    </div>
+    <div class="mid">
+        <ul class="navbar">
+        <li><a href="#" class="active">PORTFOLIO</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">PROJECTS</a></li>
+        <li><a href="#">LANGUAGES</a></li>
+        </ul>
+    </div>
+  
+    </header>
+    <div class="container">
+        <h1>Join The Best Library</h1>
+    <form actin="noaction.php">
+        <div class="form-group">                
+            <input type="text" name=""  placeholder="Enter Your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name=""  placeholder="Enter Your Email id">
+        </div>
+        <div class="form-group">
+            <input type="text" name=""  placeholder="Enter Your age">
+        </div>
+        <div class="form-group">
+            <input type="text" name=""  placeholder="Enter Your Pho No">
+        </div>
+        <button class="btn">Submit</button>
+
+    </form>
+    </div>
+</body>
+</html>
